@@ -24,10 +24,11 @@ repositories {
 	mavenCentral()
 }
 
+/*
 jar {
     baseName = 'bajdandesign'
     version = '0.0.1'
-}
+} */
 
 configurations {
 	providedRuntime
@@ -42,10 +43,10 @@ dependencies {
 
 	testImplementation('org.springframework.boot:spring-boot-starter-test:2.0.5.RELEASE')
 }
-/*
+
 mainClassName = "com.bajdandesign.BajdandesignApplication"
 
 task stage {
   dependsOn installDist
-}*/
+}
 
